@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/[https://scudoo.github.io/random-numbers-game/]/static/css/main.1b3fb545.css",
-    "main.js": "/[https://scudoo.github.io/random-numbers-game/]/static/js/main.6ea6e77e.js",
-    "static/js/787.8aa9142b.chunk.js": "/[https://scudoo.github.io/random-numbers-game/]/static/js/787.8aa9142b.chunk.js",
-    "static/media/background.jpg": "/[https://scudoo.github.io/random-numbers-game/]/static/media/background.9a8b6d29c2f6c941c37a.jpg",
-    "static/media/info.png": "/[https://scudoo.github.io/random-numbers-game/]/static/media/info.18bfef889e2a48ca5304.png",
-    "index.html": "/[https://scudoo.github.io/random-numbers-game/]/index.html",
-    "main.1b3fb545.css.map": "/[https://scudoo.github.io/random-numbers-game/]/static/css/main.1b3fb545.css.map",
-    "main.6ea6e77e.js.map": "/[https://scudoo.github.io/random-numbers-game/]/static/js/main.6ea6e77e.js.map",
-    "787.8aa9142b.chunk.js.map": "/[https://scudoo.github.io/random-numbers-game/]/static/js/787.8aa9142b.chunk.js.map"
+    "main.css": "/random-numbers-game/static/css/main.f20c7500.css",
+    "main.js": "/random-numbers-game/static/js/main.be9b285d.js",
+    "static/js/787.8aa9142b.chunk.js": "/random-numbers-game/static/js/787.8aa9142b.chunk.js",
+    "static/media/background.jpg": "/random-numbers-game/static/media/background.9a8b6d29c2f6c941c37a.jpg",
+    "static/media/info.png": "/random-numbers-game/static/media/info.18bfef889e2a48ca5304.png",
+    "index.html": "/random-numbers-game/index.html",
+    "main.f20c7500.css.map": "/random-numbers-game/static/css/main.f20c7500.css.map",
+    "main.be9b285d.js.map": "/random-numbers-game/static/js/main.be9b285d.js.map",
+    "787.8aa9142b.chunk.js.map": "/random-numbers-game/static/js/787.8aa9142b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b3fb545.css",
-    "static/js/main.6ea6e77e.js"
+    "static/css/main.f20c7500.css",
+    "static/js/main.be9b285d.js"
   ]
 }
