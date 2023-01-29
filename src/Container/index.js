@@ -1,7 +1,7 @@
 import { Main, InfoSection } from "./styled"
 import { useState, useEffect } from "react";
 
-const Container = ({ children, state, showInfo }) => {
+const Container = ({ children, state, showInfo, Info }) => {
     const [isGuessed, setIsGuessed] = useState();
 
     useEffect(() => {
@@ -28,7 +28,7 @@ const Container = ({ children, state, showInfo }) => {
             failed={isGuessed === false}
         >
             {showInfo 
-            ? <InfoSection>Jeżeli odgadniesz jaką cyfrę wylosował komputer otrzymasz 5pkt. Jeżeli nie odgadniesz stracisz 1pkt.</InfoSection> 
+            ?  Info
             : children}
         </Main>
     );

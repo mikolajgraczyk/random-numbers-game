@@ -4,6 +4,7 @@ import Form from "./Container/Form";
 import Points from "./Container/Points";
 import Result from "./Container/Result";
 import Title from "./Title";
+import Info from "./Container/Info";
 import { useResult } from "./Container/useResult";
 
 const App = () => {
@@ -25,7 +26,9 @@ const App = () => {
       />
       <Container
         state={state}
-        showInfo={showInfo}>
+        showInfo={showInfo}
+        Info={<Info/>}
+      >
         <Form
           generateNumber={generateNumber}
           compareNumbers={compareNumbers}
