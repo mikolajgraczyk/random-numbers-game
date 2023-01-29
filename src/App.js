@@ -1,24 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import Container from "./Container";
+import Form from "./Container/Form";
+import Points from "./Container/Points";
+import Result from "./Container/Result";
+import Title from "./Title";
+import { useResult } from "./Container/useResult";
 
-function App() {
+const App = () => {
+  const [showInfo, setShowInfo] = useState(false);
+
+  const {
+    points,
+    state,
+    generateNumber,
+    compareNumbers,
+  } = useResult();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Title
+        title={"Odgadnij numerek od 1 do 5"}
+        showInfo={showInfo}
+        setShowInfo={setShowInfo}
+      />
+      <Container
+        state={state}
+        showInfo={showInfo}>
+        <Form
+          generateNumber={generateNumber}
+          compareNumbers={compareNumbers}
+        />
+        <Points points={points} />
+        <Result state={state} />
+      </Container>
+    </>
   );
 }
 
