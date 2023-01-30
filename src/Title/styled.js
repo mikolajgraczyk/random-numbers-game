@@ -29,6 +29,7 @@ export const SettingsButton = styled.button`
     border-radius: 50%;
     height: 20px;
     padding: 0;
+    margin-left: -70px;
 
     &:hover{
         transform: scale(1.2);
@@ -40,6 +41,7 @@ export const SettingsButton = styled.button`
 
     @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         margin-top: -55px;
+        margin-left: 0px;
     }
 `;
 
