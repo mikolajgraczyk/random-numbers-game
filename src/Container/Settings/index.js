@@ -19,15 +19,15 @@ const Settings = ({ setMode, mode, setState, setRandomNumber, randomNumber }) =>
             <Modes>
                 <ModeButton
                     onClick={generatefromOneToTwo}>
-                    tryb  1
+                    Losuj od 1 do 2
                 </ModeButton>
                 <ModeButton
                     onClick={generatefromOneToFive}>
-                    tryb  2
+                    Losuj od 1 do 5
                 </ModeButton>
                 <ModeButton
                     onClick={generatefromOneToTen}>
-                    tryb  3
+                    Losuj od 1 do 10
                 </ModeButton>
             </Modes>
             <InfoSection>

@@ -22,7 +22,7 @@ export const ModeButton = styled.button`
     border: none;
     border-radius: 4px;
     padding: 8px;
-    width: 120px;
+    width: 130px;
 
     &:hover{
         cursor: pointer;
@@ -31,6 +31,10 @@ export const ModeButton = styled.button`
 
     &:active{
         background: ${({theme}) => theme.color.darkTeal};
+    }
+
+    @media(max-width: ${({theme}) => theme.breakpoint.mobileMax}px){
+        width: 170px;
     }
 `;
 
