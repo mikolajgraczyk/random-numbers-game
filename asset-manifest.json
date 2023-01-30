@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/random-numbers-game/static/css/main.f20c7500.css",
-    "main.js": "/random-numbers-game/static/js/main.482a7479.js",
+    "main.js": "/random-numbers-game/static/js/main.01241c19.js",
     "static/js/787.8aa9142b.chunk.js": "/random-numbers-game/static/js/787.8aa9142b.chunk.js",
     "static/media/background.jpg": "/random-numbers-game/static/media/background.9a8b6d29c2f6c941c37a.jpg",
-    "static/media/info.png": "/random-numbers-game/static/media/info.18bfef889e2a48ca5304.png",
+    "static/media/settings.png": "/random-numbers-game/static/media/settings.7f37696f5e7115fb5fc8.png",
     "index.html": "/random-numbers-game/index.html",
     "main.f20c7500.css.map": "/random-numbers-game/static/css/main.f20c7500.css.map",
-    "main.482a7479.js.map": "/random-numbers-game/static/js/main.482a7479.js.map",
+    "main.01241c19.js.map": "/random-numbers-game/static/js/main.01241c19.js.map",
     "787.8aa9142b.chunk.js.map": "/random-numbers-game/static/js/787.8aa9142b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f20c7500.css",
-    "static/js/main.482a7479.js"
+    "static/js/main.01241c19.js"
   ]
 }
