@@ -8,7 +8,7 @@ export const TitleSection = styled.div`
     letter-spacing: 2px;
     display: grid;
     align-items: center;
-    max-width: 500px;
+    width: 350px;
 
     @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px){
         margin: 20% auto 8px;
