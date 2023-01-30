@@ -4,6 +4,7 @@ export const Main = styled.div`
     border-radius: 4px;
     background: ${({ theme }) => theme.color.prussianBlue};
     max-width: 500px;
+    max-height: 227px;
     display: grid;
     grid-gap: 8px;
     justify-items: center;
@@ -21,8 +22,10 @@ export const Main = styled.div`
         background: ${({ theme }) => theme.color.rosewood};
     `};
 
-    @media(max-width: ${({theme}) => theme.breakpoint.mobileMax}px) {
+    @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         grid-gap: 64px;
         padding: 10px;
+        max-width: none;
+        max-height: none;
     }
 `;

@@ -7,6 +7,7 @@ export const TitleSection = styled.div`
     color: white;
     letter-spacing: 2px;
     display: grid;
+    align-items: center;
     max-width: 500px;
 
     @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px){
@@ -19,25 +20,29 @@ export const TitleText = styled.div`
     text-shadow: 0px 0px 13px rgba(0, 0, 0, 1);
 `;
 
-export const Info = styled.button`
+export const SettingsButton = styled.button`
     position: absolute;
     border: none;
     cursor: pointer;
     transition: 0.2s;
     background-color: black;
     border-radius: 50%;
-    height: 25px;
+    height: 20px;
     padding: 0;
 
     &:hover{
         transform: scale(1.2);
     }
 
+    &:active{
+        transform: scale(1.3);
+    }
+
     @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-        margin-top: -30px;
+        margin-top: -55px;
     }
 `;
 
-export const InfoImage = styled.img`
-    height: 25px;
+export const SettingsButtonImage = styled.img`
+    height: 20px;
 `;

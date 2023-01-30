@@ -1,9 +1,10 @@
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { FormSection, Input, Button } from "./styled";
 
-const Form = ({ generateNumber, compareNumbers }) => {
+const Form = ({ generateNumber, compareNumbers, mode }) => {
     const [value, setValue] = useState("");
 
+    const placeholder = `${mode.generateFrom}-${mode.generateTo}`;
 
     const onFormSubmit = (event) => {
         event.preventDefault();
@@ -21,7 +22,7 @@ const Form = ({ generateNumber, compareNumbers }) => {
                 onChange={({ target }) => setValue(target.value)}
                 required
                 min="1"
-                placeholder="1-5"
+                placeholder={placeholder}
             />
             <Button>Zatwierdź</Button>
         </FormSection>

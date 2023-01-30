@@ -4,7 +4,6 @@ export const GeneratedNumberSection = styled.div`
     display: grid;
     justify-items: center;
 
-
     @media(max-width: ${({theme}) => theme.breakpoint.mobileMax}px){
        margin-bottom: 9px;
     }
@@ -13,6 +12,6 @@ export const GeneratedNumberSection = styled.div`
 export const GeneratedNumber = styled.div`
     font-weight: 100;
     color: white;
+    margin-top: -6px;
     position: absolute;
-
 `;

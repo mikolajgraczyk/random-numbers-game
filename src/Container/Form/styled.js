@@ -29,4 +29,13 @@ export const Button = styled.button`
     border-radius: 4px;
     font-size: 20px;
     letter-spacing: 4px;
+
+    &:hover{
+        cursor: pointer;
+        background: ${({theme}) => theme.color.brightTeal};
+    }
+
+    &:active{
+        background: ${({theme}) => theme.color.darkTeal};
+    }
 `;

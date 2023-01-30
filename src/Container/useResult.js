@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
-export const useResult = () => {
-    const [randomNumber, setRandomNumber] = useState(Math.floor(Math.random() * 5 + 1));
+export const useResult = (mode) => {
+    const [randomNumber, setRandomNumber] = useState(Math.floor(Math.random() * (mode.generateTo - mode.generateFrom + 1) + mode.generateFrom));
     const [points, setPoints] = useState(+localStorage.getItem("points") || 0);
     const [state, setState] = useState({
         prevNumber: randomNumber,
@@ -11,10 +11,15 @@ export const useResult = () => {
 
     useEffect(() => {
         localStorage.setItem("points", points)
+
+        if (points <= 0) {
+            setPoints(0);
+            return;
+        }
     }, [points]);
 
     const generateNumber = () => {
-        setRandomNumber(Math.floor(Math.random() * 5 + 1));
+        setRandomNumber(Math.floor(Math.random() * (mode.generateTo - mode.generateFrom + 1) + mode.generateFrom));
     };
 
     const compareNumbers = (value) => {
@@ -24,7 +29,7 @@ export const useResult = () => {
             isGuessed: false,
         });
         if (randomNumber === value) {
-            setPoints(points + 5);
+            setPoints(points + mode.collectPoint);
             setState({
                 prevNumber: randomNumber,
                 isGuessed: true,
@@ -32,16 +37,16 @@ export const useResult = () => {
             });
             return;
         };
-        if(points > 0) {
-            setPoints(points - 1);
-            return;
-        }
+        setPoints(points - mode.losePoint);
     };
 
     return {
         points,
         state,
-        generateNumber,
+        randomNumber,
+        setState,
         compareNumbers,
+        generateNumber,
+        setRandomNumber,
     };
 };
