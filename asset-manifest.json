@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/random-numbers-game/static/css/main.f20c7500.css",
-    "main.js": "/random-numbers-game/static/js/main.5895be45.js",
+    "main.js": "/random-numbers-game/static/js/main.1ceb3722.js",
     "static/js/787.8aa9142b.chunk.js": "/random-numbers-game/static/js/787.8aa9142b.chunk.js",
     "static/media/background.jpg": "/random-numbers-game/static/media/background.9a8b6d29c2f6c941c37a.jpg",
     "static/media/settings.png": "/random-numbers-game/static/media/settings.7f37696f5e7115fb5fc8.png",
     "index.html": "/random-numbers-game/index.html",
     "main.f20c7500.css.map": "/random-numbers-game/static/css/main.f20c7500.css.map",
-    "main.5895be45.js.map": "/random-numbers-game/static/js/main.5895be45.js.map",
+    "main.1ceb3722.js.map": "/random-numbers-game/static/js/main.1ceb3722.js.map",
     "787.8aa9142b.chunk.js.map": "/random-numbers-game/static/js/787.8aa9142b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f20c7500.css",
-    "static/js/main.5895be45.js"
+    "static/js/main.1ceb3722.js"
   ]
 }
