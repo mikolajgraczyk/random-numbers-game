@@ -1,4 +1,4 @@
-import { Main, InfoSection } from "./styled"
+import { Main } from "./styled"
 import { useState, useEffect } from "react";
 
 const Container = ({ children, state, showInfo, Info }) => {

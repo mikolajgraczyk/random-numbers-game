@@ -1,11 +1,11 @@
 import { useState } from "react";
 import Container from "./Container";
-import Form from "./Container/Form";
-import Points from "./Container/Points";
-import Result from "./Container/Result";
+import Form from "./Form";
+import Points from "./Points";
+import Result from "./Result";
 import Title from "./Title";
-import Settings from "./Container/Settings";
-import { useResult } from "./Container/useResult";
+import Settings from "./Settings";
+import { useResult } from "./useResult";
 
 const App = () => {
   const [showInfo, setShowInfo] = useState(false);
