@@ -1,4 +1,4 @@
-### Random-numbers Game
+# Random-numbers Game
 
 ## Description
 A simple game based on random generated numbers created using React. Guess randomly generated number to gain points. If you miss - you lose points. Your points are saved in local storage.
