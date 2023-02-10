@@ -4,11 +4,11 @@
 A simple game based on random generated numbers created using React. Guess randomly generated number to gain points. If you miss - you lose points. Your points are saved in local storage.
 
 ## Technologies used in project
--HTML
--StyledComponents
--JSX
--BEM
--localStorage
+- HTML
+- StyledComponents
+- JSX
+- BEM
+- localStorage
 
 ### `npm start`
 
