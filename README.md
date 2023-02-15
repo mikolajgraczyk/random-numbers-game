@@ -3,6 +3,9 @@
 ## Description
 A simple game based on random generated numbers created using React. Guess randomly generated number to gain points. If you miss - you lose points. Your points are saved in local storage.
 
+# Demo
+https://mikolajgraczyk.github.io/random-numbers-game/
+
 ## Technologies used in project
 - HTML
 - StyledComponents
